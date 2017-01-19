@@ -1,0 +1,136 @@
+/*********
+ GENERAL
+*********/
+
+#overlay{
+  background-color: rgb(233,233,233);  
+}
+
+#nav{
+  height: 50px;
+  float: right;
+  margin: 0 0 5px 0;
+}
+
+#container{
+  height: 1000px;
+  background-color:  
+  
+}
+
+
+#side-nav{
+  float: left;
+  width: 20%;
+  
+}
+
+#side-nav div{
+  height: 300px;
+  box-shadow: 0px 0px 5px rgb(111,111,111);
+  background-color: white;
+}
+
+#content {
+  width: 65%; 
+  float: right;
+  height: 1000px;
+  
+}
+
+#footer{
+  
+  
+}
+
+
+/*********
+ Font
+*********/
+
+p{
+  font-family: 'Pacifico', cursive;
+/*   font-family: 'Oswald', 'Changa One', sans-serif; */
+  margin: 14px 0;
+  font-size: 1.50em;
+}
+
+
+
+/*********
+ NAV
+*********/
+#nav ul li{
+  display: inline-block;
+  background-color: rgb(0,155,217);
+  padding: 8px 50px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 2px rgb(0,155,217);
+  margin: 0 8px;
+  
+}
+
+#nav ul li:hover{
+  background-color: rgb(0,177,237);
+}
+
+#nav a {
+  text-decoration: none;
+  font-size: 150%;
+  color: rgb(230,230,230);
+}
+
+/*********
+ SIDE-NAV
+*********/
+
+#side-nav ul li{
+  padding: 5px 0px;
+  margin: 0 8px;
+  list-style: none;
+    
+}
+
+#side-nav a {
+  font-size: 120%;
+  color: rgb(0,155,217);
+}
+
+#side-nav p{
+  color: black;
+  text-indent: 50px;
+}
+
+/*********
+ FOOTER
+*********/
+#footer img {
+  max-height: 80px;
+  min-height: 50px;
+}
+
+
+/*********
+BUTTON
+*********/
+#side-nav button {
+  background-color: rgb(0,177,233);
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+#side-nav button:hover {
+  background-color: rgb(0,197,255);
+}
+
+
+
+/********
+FLEX-BOF
+*********/
+#side-nav{
+  height: 300px;
+  
+}
